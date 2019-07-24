@@ -1,9 +1,11 @@
 import React from "react";
+import Header from "./components/header";
+import "./app.scss";
 
 function App() {
   return (
     <div>
-      <h1>Test</h1>
+      <Header />
     </div>
   );
 }
